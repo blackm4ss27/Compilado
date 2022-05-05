@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="-153dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="C A L C U L A D O R A "
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero 1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etNro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero 2"
+            android:textSize="24sp"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#05c"
+                android:text="+"
+                android:textColor="#F1EDED" />
+
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f90"
+                android:text="-"
+                android:textColor="#F1EDED" />
+
+            <Button
+                android:id="@+id/btnMultuplicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000"
+                android:text="*"
+                android:textColor="#F1EDED" />
+
+            <Button
+                android:id="@+id/btnDividir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f05"
+                android:text="/"
+                android:textColor="#F1EDED" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnPotenciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#94032a"
+                android:text="˄" />
+
+            <Button
+                android:id="@+id/btnRaices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#45574e"
+                android:text="√" />
+
+            <Button
+                android:id="@+id/btnPorcentajes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#1d052b"
+                android:text="%"/>
+
+            <Button
+                android:id="@+id/btnFactoriales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#00360a"
+                android:text="X!" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0a0a7d"
+            android:text="Limpiar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="El resultado es : "
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

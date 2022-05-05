@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="S O N I D O "
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imbInstrumentos"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instrumentos" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Escucharás los sonidos de los diferentes instrumentos musicales, sentirás la música en tus oídos. Presiona en la imagen para continuar..." />
+
+    </LinearLayout>
+</FrameLayout>

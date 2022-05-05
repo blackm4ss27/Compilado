@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="REDES SOCIALES"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imbFb"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb" />
+
+        <ImageButton
+            android:id="@+id/imbIg"
+            android:layout_width="384dp"
+            android:layout_height="161dp"
+            android:src="@drawable/ig" />
+
+        <ImageButton
+            android:id="@+id/imbYt"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yt" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

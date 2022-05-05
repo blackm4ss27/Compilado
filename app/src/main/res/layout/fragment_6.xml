@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="-153dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="CONVERTIDOR DE MONEDAS"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:src="@drawable/billetes" />
+
+        <EditText
+            android:id="@+id/etMonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el monto a convertir"
+            android:inputType="numberDecimal"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnDS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#94032a"
+            android:text="DOLARES A SOLES" />
+
+        <Button
+            android:id="@+id/btnSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00360a"
+            android:text="SOLES A DOLARES" />
+
+        <Button
+            android:id="@+id/btnES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#022a6e"
+            android:text="EUROS A SOLES" />
+
+        <Button
+            android:id="@+id/btnSE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#8dd408"
+            android:text="SOLES A EUROS"
+            android:textColor="#100F0F" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#b8c9e6"
+            android:text="Limpiar"
+            android:textColor="#100F0F" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <TextView
+                android:id="@+id/tvSalida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="El resultado es : "
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcWeb1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="NAVEGADOR WEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtWeb"
+            android:layout_width="370dp"
+            android:layout_height="69dp"
+            android:hint="Ingresa al sitio web"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="370dp"
+            android:layout_height="109dp"
+            android:backgroundTint="#80031c"
+            android:text="Buscar"
+            android:onClick="Navegar"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

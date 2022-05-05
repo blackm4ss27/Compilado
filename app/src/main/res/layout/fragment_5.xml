@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/titulo" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nommapi" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mapi" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Está ubicado en Perú, a menos de 100 km de Cuzco, y se cree que se construyó antes del siglo XV. Ciertos documentos hablan del lugar como residencia de un gobernador Inca, pero algunas construcciones parecen apuntar a que fue levantado mucho antes para ser un lugar religioso. En encanto del lugar reside en sus ruinas, pero también en su impresionante paisaje en medio de las montañas. Sin duda es un lugar mágico." />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomchichen" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chichen" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Otra maravilla de la zona de mesoamérica, las construcciones principales datan entre el 800 y 1100 d.C. El templo más famoso es el de Kukulkán, pero podemos ver muchos más vestigios arqueológicos en Chichen: el cenote sagrado donde se hacían sacrificios humanos para los dioses, el juego de pelota, otros templos como el del Jaguar, el de Venus, etc. El observatorio, varias plataformas, casas, ¡y mucho más!." />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomromano" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/romano" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Construido entre los años 72 y 80 d.C ha resistido los expolios, y algún que otro terremoto que ha dejado la estructura un poco dañada. En este anfiteatro se podía ver a los gladiadores, pero también ejecuciones, representaciones teatrales, caza de animales… ha sido muy versátil. Se estuvo utilizando hasta el siglo VI, primero por los romanos y después por los bizantinos después de la caída del imperio. Hoy en día es una de las principales atracciones de la ciudad de Roma." />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomcristo" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cristo" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La estatua, de 38 metros de altura, está situada en el cerro del Corcovado (71 m sobre el nivel del mar), y puede verse casi desde cualquier parte de Río de Janeiro. Se inauguró el 12 de octubre de 1931, bautizada ya como la obra de art decó más grande del mundo." />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nommuralla" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/muralla" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuvo varios periodos de construcción y reconstrucción. Alrededor del siglo V a.C. se inicia el levantamiento de algunos muros que hoy en día siguen en pie. Después de varias dinastías, nos encontramos en la actualidad con sus 21.200 km de largo, que van desde Corea hasta el desierto del Gobi, aunque hoy solo se conserva un 30% de la estructura." />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nompetra" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/petra" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Una de las joyas de Jordania, fundada en el siglo VIII a.C. por los edomitas, y posteriormente ocupada por varios pueblos hasta la actualidad. Varios terremotos han dañado algunas partes, ya que se encuentra entre dos placas tectónicas y muy cerca del Gran Valle del Rift. El Al Khazneh (El Tesoro) es el edificio más famoso y más fotografiado, pero hay muchas más construcciones que ver en el lugar, como el Anfiteatro, el monasterio…" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nommahal" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahal" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Su arquitectura sin duda es hermosa, pero la historia que hay detrás, también lo hace destacar. Fue el complejo funerario que Shah Jahan le hizo a su esposa favorita al morir en el parto de su decimocuarto hijo. El famoso edificio posee una combinación de elementos islámicos, persas, indios y turcos y trabajaron los mejores artesanos en él. Lo puedes encontrar en la ciudad de Agra, en la India." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
